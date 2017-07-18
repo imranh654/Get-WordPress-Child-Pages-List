@@ -1,5 +1,7 @@
 <?php
 
+// Use this shortcode in wordpress page editor [get-child-pages-list]
+
 function get_child_pages_list_function() {
 	$current_repair_page_id = get_the_ID();
 
